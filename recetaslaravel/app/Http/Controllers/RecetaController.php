@@ -14,12 +14,6 @@ class RecetaController extends Controller
      */
     public function __invoke(Request $request)
     {
-
-        $receta = [
-            'nombre' => 'Pizza Hawaiana',
-            'descripcion' => 'Prepara la mejor pizza'
-        ];
-
-        return $receta;
+        return view('recetas.index');
     }
 }
