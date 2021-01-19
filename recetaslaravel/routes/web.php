@@ -17,7 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/nosotros', function () {
-    return view('nosotros');
-});
+Route::get('/nosotros', 'RecetaController@hola');
 
