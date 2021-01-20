@@ -1,17 +1,27 @@
 @extends('layouts.app')
 
 @section('content')
+     <h2 class="text-center mb-5">Administra tus recetas</h2>
 
-<h1>Recetas</h1>
+     <div class="col-md-10 mx-auto bg-white p3">
+          <table class="table">
+               <thead class="bg-primary text-light">
+                    <tr>
+                         <th scole="col">Titulo</th>
+                         <th scole="col">Categoria</th>
+                         <th scole="col">Acciones</th>
+                    </tr>
+               </thead>
 
-@foreach($recetas as $receta)
-     <li> {{ $receta }} </li>
-@endforeach
-
-<h2>Categorias</h2>
-
-@foreach($categorias as $categoria)
-     <li> {{ $categoria }} </li>
-@endforeach
-
+               <tbody>
+                    <tr>
+                         <td>Pizza</td>
+                         <td>Pizzas</td>
+                         <td>
+                               
+                         </td>
+                    </tr>
+               </tbody>
+          </table>
+     </div>
 @endsection
