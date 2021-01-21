@@ -98,7 +98,7 @@
                               id="imagen"
                               type="file"
                               class="form-control @error('imagen') is-invalid @enderror"
-                              name="imagem"
+                              name="imagen"
                          >
                          @error('imagen')
                               <span class="invalid-feedback d-block" role="alert">
