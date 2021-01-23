@@ -18,8 +18,7 @@
 
                <p>
                     <span class="font-weight-bold text-primary">Autor:</span>
-                    {{-- TODO: mastrar el usuario --}}
-                    {{$receta->user_id}}
+                    {{$receta->autor->name}}
                </p>
 
                <p>
